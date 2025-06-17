@@ -125,4 +125,5 @@ h4 {
 .container a:hover {
   text-decoration: underline;
   color: #C9A9A6; 
+  cursor: pointer; 
 }
