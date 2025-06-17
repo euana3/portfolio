@@ -20,27 +20,32 @@ header {
   font-size: small;
 }
 
-.nav-links {
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 2;
   display: flex;
   gap: 1rem;
-  list-style: none;
   justify-content: center;
-  padding: 1rem 0;
+  padding: 0;
 }
 
-.nav-button {
-  background-color: #40505c;
-  color: white;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  font-weight: bold;
+nav ul li a {
+  color: #5A5D9D;       
+  transition: color 0.3s;   
+  text-decoration: none;    
 }
 
-.nav-button:hover {
-  background-color: #1f2325;
-}
+nav ul li a:hover {
+  color: #C9A9A6;           
+} 
 
 footer {
   text-align: center;
