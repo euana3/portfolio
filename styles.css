@@ -26,6 +26,8 @@ nav {
   align-items: center;
   text-align: center;
   padding: 1rem;
+  background: #E3E6F3;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 nav ul {
